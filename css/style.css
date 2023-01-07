@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* Hero Section */
+.hero{
+    background-image: url(/img/banner2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+}
+.container{
+    padding: 0 11rem;
+}
+.hero .hero-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    height: 100vh;
+    text-align: right;
+    align-items: flex-end;
+    width: 40%;
+    float: right;
+}
+.hero-content h2{
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+.hero-content p{
+    font-size: 0.9rem;
+    line-height: 27px;
+    margin: 1.5rem 0;
+}
+.hero-content a.btn{
+    background-color: #F15B22;
+    color: #fff;
+    padding: 1rem;
+    width: 140px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.1rem;
+    border-radius: 5px;
+}
+/* About Section */
+.about{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding:5rem 8rem;
+}
+.about-left img{
+    transform: scale(0.9);
+}
+.about-right{
+    width: 32%;
+    margin-top: 10rem;
+}
+.about-right h2{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.about-right p{
+    margin: 1.3rem 0;
+    font-size: 0.9rem;
+    line-height: 23px;
+}
+.about-right ul{
+    list-style: none;
+}
+.about-right ul .item{
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    margin-bottom: 1rem;
+}
+.about-right ul .item i{
+    color: #19D888;
+}
+/* My Plans */
+#my-plans h2{
+     font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    
+}
+.my-plans{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    padding-top: 4rem;
+    padding-bottom: 5rem;
+    text-align: center;
+    width: 78%;
+    margin: 0 auto;
+}
+.my-plans h3{
+    font-size: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+
+/* call to action section  */
+
+.cta-section-ber{
+    max-width: 80%;
+    margin: auto;
+}
+.cta-section {
+    background: url(../img/watch.png),linear-gradient(#0000007a,#00000073);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    padding: 80px 75px;
+    border: none;
+    border-radius: 10px;
+}
+.cta-section h2 {
+    color: white;
+    font-size: 31px;
+    margin-bottom: 36px;
+}
+.last-btn {
+    padding: 10px 15px;
+    background-color: white;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+/* footer section pat css */
+.footer {
+    background:linear-gradient(#000000e6,#000000e4);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    padding-top: 40px;
+    margin-top: 109px;
+}
+.section-donar.footer-slect {
+    display: flex;
+    gap: 20px;
+    padding: 91px 0;
+    justify-content: center;
+}
+.footer-slect-last{
+    width: 50%;
+}
+.footer-slect-last h1 {
+    color: white;
+    font-size: 40px;
+    font-weight: 900;
+    padding-bottom: 20px;
+}
+
+.footer-slect-last p {
+    color: white;
+    padding: 10px 30px;
+}
+
+.footer-slect-last a {
+    color: white;
+    text-decoration: none;
+    padding: 20px 30px;
+}
+.footer-contact{
+    color: red;
+}
+.footer-serial-rt h3 {
+    color: white;
+    font-size: 33px;
+    font-weight: 900;
+    padding-bottom: 20px;
+}
+.footer-serial-rt input {
+    padding: 12px 4px;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.social-media{
+    padding: 25px 30px;
+}
+.social-media img {
+    padding: 0 3px;
+    width: 36px;
+}
+.subscribe-btn {
+    padding: 10px 15px;
+    font-size: 20px;
+    color: red;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
